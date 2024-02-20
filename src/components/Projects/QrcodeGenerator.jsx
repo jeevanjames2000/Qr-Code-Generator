@@ -5,7 +5,7 @@ import QRCode from "react-qr-code";
 import {
   useLocalStorageGetItem,
   useLocalStorageSetItem,
-} from "./CustomHooks/useLocalStorage";
+} from "../CustomHooks/useLocalStorage";
 
 const QrCodeGenerator = () => {
   const [qrCode, setQrCode] = useState("");
